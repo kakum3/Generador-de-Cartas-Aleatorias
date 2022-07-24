@@ -1,1 +1,36 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background: green;
+}
+.carta {
+  width: 300px;
+  height: 500px;
+  background: white;
+  border-radius: 20px;
+  margin: 5% auto;
+  border: 3px black solid;
+}
+.simboloArriba {
+  display: inline-block;
+  position: relative;
+  left: 10px;
+  font-size: 100px;
+  width: 60px;
+  height: 100px;
+}
+.numero {
+  font-size: 120px;
+  width: 120px;
+  margin: 50px auto;
+  text-align: center;
+}
+.simboloAbajo {
+  float: right;
+  position: relative;
+  right: 10px;
+  bottom: -15px;
+  font-size: 100px;
+  width: 60px;
+  height: 100px;
+  transform: rotate(-180deg);
+}

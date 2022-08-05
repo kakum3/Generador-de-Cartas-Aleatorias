@@ -11,7 +11,7 @@ var simbolo = ["♥", "♠️", "♣️", "♦"];
 var numero = ["A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"];
 let arriba = document.querySelector(".simboloArriba");
 let valor = document.querySelector(".numero");
-let abajo = document.querySelector(".paloAbajo");
+let abajo = document.querySelector(".simboloAbajo");
 
 function cartaAleatoria(simbolos, numeros) {
   let carta = [];
